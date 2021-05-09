@@ -3,10 +3,10 @@ const mongoose = require("mongoose");
 const app = express();
 
 //middleware
-app.use(logger("dev"));
+// app.use(logger("dev"));
 app.use(express.urlencoded({ extended : true }));
 app.use(express.json());
-app.use(express.static());
+app.use(express.static("public"));
 
 // Connect to Database
 mongoose.connect( process.env.MONGODB_URI || "mongodb://localhost:27017/Tracker", {
