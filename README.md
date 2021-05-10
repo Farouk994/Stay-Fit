@@ -28,3 +28,6 @@ faroukkisuule55@gmail.com
 
 ### LinkedIN
 https://www.linkedin.com/in/farouk-kisuule-a7a57815b/
+
+### Deployed Link
+https://fitness-tracker2ft.herokuapp.com/
